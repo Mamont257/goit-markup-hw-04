@@ -305,11 +305,16 @@ body {
 }
 
 .icon-position {
-    padding: 25px 100px;
+    display: flex;
+    width: 270px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
     background-color: var(--secong-color);
     border-radius: 4px;
     margin-bottom: 30px;
 }
+
 
 
 
@@ -406,7 +411,7 @@ body {
 
     color: var(--second-text-color);
 
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .team-img {
@@ -476,10 +481,6 @@ body {
     column-gap: 30px;
 }
 
-.customer-icon {
-    width: 168px;
-    height: 90px;
-}
 
 .customers-link {
     display: flex;
@@ -495,7 +496,7 @@ body {
 .customers-link:hover,
 .customers-link:focus {
     fill: var(--logo-blue);
-    border: 1px solid var(--logo-blue);
+    border-color: var(--logo-blue);
 }
 
 
@@ -678,7 +679,11 @@ body {
     flex-basis: calc((100% - 60px)/3);
 }
 
-.portfolio-item:hover {
+.portfolio-link {
+    display: block;
+}
+
+.portfolio-link:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
     0px 4px 4px rgba(0, 0, 0, 0.06), 
     1px 4px 6px rgba(0, 0, 0, 0.16);
